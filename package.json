@@ -24,7 +24,9 @@
     ]
   },
   "scripts": {
-    "test": "mocha src/**/ch*-tests.js",
+    "test-mocha": "mocha src/**/mocha/ch*-tests.js",
+    "cover-mocha": "",
+    "test": "mocha src/**/mocha/ch*-tests.js",
     "cover": "istanbul cover node_modules/.bin/_mocha src/**/ch*-tests.js",
     "ch03": "mocha src/ch03/ch03-tests.js",
     "ch04": "mocha src/ch04/ch04-tests.js"
