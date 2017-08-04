@@ -39,7 +39,16 @@ npm install rxjs
 
 
 ## Running the tests
+
+### QUnit
 Once QUnit is installed. You can run each test with the QUnit CLI by specifying the chapter number.
 ~~~
 $> npm run ch[1-8]
 ~~~
+
+### Mocha
+You can run all chapter unit tests with:
+
+```
+$ npm test
+```

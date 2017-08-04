@@ -33,6 +33,7 @@
     "ch07": "qunit -t src/ch07/tests.js -c src/ch07/tests.js",
     "ch08": "qunit -t src/ch08/tests.js -c src/ch08/tests.js",
     "test": "mocha src/**/mocha/tests.js",
+    "test-watch": "mocha src/**/mocha --watch",
     "cover": "istanbul cover node_modules/.bin/_mocha src/**/mocha/tests.js"
   },
   "dependencies": {}
